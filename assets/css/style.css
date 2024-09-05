@@ -1,0 +1,75 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-blue {
+  color: #1762a4;
+}
+.text-blue-black {
+  color: #051e68;
+}
+.text-center {
+  text-align: center;
+}
+.background-grey {
+  background-color: #ebe1e1;
+}
+#main {
+  margin: auto 8px;
+}
+h1{
+    padding: 6px;
+}
+h2 {
+  background-color: #b3d5f2;
+  padding: 4px;
+}
+.about{
+    position: relative;
+}
+.about span {
+  color: #1762a4;
+  font-weight: 600;
+}
+.about .img-dog{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 240px;
+}
+@media( max-width:759px){
+    .about .img-dog{
+        position: static;
+        width: 100%;
+    }
+    table{
+      width: 100%;
+    }
+    .submit-infor{
+      margin-top: 4px;
+      width: 100%;
+    }
+    .submit-infor input{
+      width: 75%;
+    }
+}
+
+.course table {
+  border-collapse: collapse;
+  text-align: left;
+}
+.course td,
+.course th,
+.course table {
+  padding: 5px;
+  border: 1px solid #000;
+}
+.interests span {
+  font-weight: 600;
+}
+.submit-information label {
+  display: inline-block;
+  min-width: 60px;
+}
+.submit-information .submit-btn {
+  margin-top: 4px;
+}
